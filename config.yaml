@@ -1,0 +1,21 @@
+# YAML tutorial:
+# https://dev.to/ilyakaznacheev/a-clean-way-to-pass-configs-in-a-go-application-1g64
+
+secrets:
+  # File path to the firebase key. This must be provided to enable database access in the application.
+  # Example: /var/database/key.txt
+  firebase_key:
+
+stubs:
+  # Run a local version of the database. Example: true/false
+  database:
+
+  # Run a local version of currencies API. Example: true/false
+  currencies:
+
+  # Run a local version of open weather API. Example: true/false
+  weather:
+
+  # Run a local version of the REST countries API. Example: true/false
+  rest_countries:
+

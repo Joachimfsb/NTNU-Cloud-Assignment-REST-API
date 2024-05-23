@@ -1,0 +1,12 @@
+services:
+  demoapp:
+    expose:
+      - 8080
+    build: .
+    environment:
+      - PORT=8080
+    volumes:
+      - ./.secrets:/credentials:ro
+    ports:
+      - "8080:8080"
+
